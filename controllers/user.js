@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser";
 import { sendCookie } from "../utils/features.js";
 import ErrorHandler from "../middlewares/error.js";
 
-// ALL IT IS CALLED MVC(MODEL VIEW CONTROLLER)
+
 
 
 export const login = async (req, res, next) => {
